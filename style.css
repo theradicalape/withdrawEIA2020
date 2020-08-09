@@ -25,3 +25,8 @@ button
     background-color:azure;
 }
 
+.mailto{
+  display:block;
+  width:100px;
+  height:20px;
+}
