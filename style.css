@@ -32,4 +32,7 @@ button
       border-style: solid;
     border-color: grey;
     border-width: 2px;
+    text-align: center;
+    padding: 5px;
+    background-color: cornsilk;
 }

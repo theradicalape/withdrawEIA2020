@@ -141,6 +141,6 @@ Your Name
     }
 
 	var mailLink = document.getElementsByClassName('mailto');
-	mailLink.href = "mailto:"+recipients+"?subject="+subject+"&body="+body.replace(/\n/g,"<br>");
+	mailLink[0].href = "mailto:"+recipients+"?subject="+subject+"&body="+body.replace(/\n/g,"<br>");
 </script>
 </html>
