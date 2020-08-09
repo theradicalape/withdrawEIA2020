@@ -29,4 +29,7 @@ button
   display:block;
   width:100px;
   height:20px;
+      border-style: solid;
+    border-color: grey;
+    border-width: 2px;
 }
