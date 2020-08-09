@@ -1,35 +1,31 @@
-main  h3
-{
+main h3 {
     text-align: center;
 }
 
-body
-{
-    padding:2%;
+body {
+    padding: 2%;
     font-family: sans-serif;
 }
 
-button
-{
+button {
     display: block;
     padding: 5px;
     font-size: 18px;
 }
 
-.content
-{
+.content {
     border-style: solid;
     border-color: grey;
     border-width: 2px;
     padding: 10px;
-    background-color:azure;
+    background-color: azure;
 }
 
-.mailto{
-  display:block;
-  width:100px;
-  height:20px;
-      border-style: solid;
+.mailto {
+    display: block;
+    width: 100px;
+    height: 20px;
+    border-style: solid;
     border-color: grey;
     border-width: 2px;
     text-align: center;
