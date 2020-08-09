@@ -2,30 +2,37 @@
 <html>
 <head>
 	<title>Save EIA</title>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css">
 	<script type="text/javascript">
 		
-		function sendEmail(){
+
 			var recipients = 'eia2020-moefcc@gov.in';
 			var subject = "Request to Withdraw Draft EIA 2020 in the interest of Environmental and Public Welfare";
 			var body = `Dear Shri. Prakash Javadekar,
 
-In March 2020, during the COVID pandemic and under your leadership, the MOEFCC had released the Draft EIA 2020 Notification, and I am writing to you today to unequivocally request that this draft be withdrawn on account of how destructive it can prove to be for the ecology and the people of our great nation. 
+This is with reference to the draft EIA notification, 2020 which has been uploaded on the environment ministry’s website on 12.3.2020 seeking public comments within sixty days of the issuance of the notification. We are deeply concerned that this draft notification has been put out in the midst of a national health crisis. As you are aware, most of the country is under lockdown and there are severe restrictions on movement in public places. Most offices are closed and the staff are working from home. These restrictions may be indefinite and it is not clear when public life and work can resume.
 
-Though the notification states that it seeks to make the EIA process ‘more transparent and expedient’. But several renowned organizations, experts and the public have raised serious questions and concerns about the consequences, if such an amendment came into force. 
+The long-term public health, social and economic impacts of this global pandemic are yet to be ascertained. The EIA notification is an important regulation through which the impacts of land-use change, water extraction, tree felling, pollution, waste and effluent management for industrial and infrastructure projects are to be studied and used in developmental decisionmaking. Any change in this law has a direct bearing on the living and working conditions of people and the ecology.
 
-There is a lot of sound scientific research emerging, linking the present pandemic to the vast destruction of natural habitats – which among numerous other ecosystem services, also greatly buffer zoonotic diseases like COVID – 19. This is in the larger context of a global climate breakdown – repercussions of which our country is already witnessing many, including the devastating Supercyclone Amphan in the East and the cyclone Nisarga in the West. In this light, the Draft EIA 2020 caters purely to the ‘ease of doing business’ in India and does not address these larger looming issues. This also comes at a time when the Government is opening up all its sectors to private companies – entities neither elected by or directly accountable to the people. This takes power away from the people which goes against our democratic ideals.
+Therefore, it is critical that the government provides a suitable and adequate opportunity for those impacted or likely to be affected by the design and implementation of EIA notification. Opportunities to understand and discuss the implications of the proposed amendments may be severely hindered due to the present health emergency with restricted public movement, social distancing and challenges to everyday life activities. These restrictions also make it impossible to disseminate information about the notification to communities who deserve to know and influence the notification.
 
-The proposed notification considerably relaxes various guidelines, restrictions and safeguards which legally exist for our wilderness and local people. This is in contravention to the scope and spirit of Section 3 of the Environmental Protections Act (1986) itself. It seems to make circumstances strongly favourable to industrial and corporate interests. Pertinent examples of this are the allowance of post-facto clearances and the non-requirement of EIA for B2 projects, which include potentially harmful ones like river valley projects, tanneries, many chemical manufacturing units, petrochemical industries, expansion of national highways, etc. How can we expect the perpetrators of ecological crimes to keep themselves accountable? We cannot! It is understandable that the government is taking measures to counter the recent economic slowdown, but these measures need to be also cognizant of long term and far-reaching ecological and social impacts. This is not to mention that destruction of the environment is proven to be worse for the economy in the longer term.
+We, therefore, request the environment ministry to:
 
-While there has been some streamlining with respect to the categorisation of projects, the public consultation step has been severely undermined. This dilutes an important democratic process ensuring the welfare of stakeholders in the project areas. It is not reasonable to expect that the public can get informed opinions on such short timelines.
+1. Immediately, withdraw the proposed amendments of the Draft EIA notification 2020.
 
-There are a number of other such exemptions given for industries and relaxations of restrictions, which presently exist as safeguards against destructive development. There is, as such, nothing in the notification which is for the protection and conservation of the environment itself and/or for public welfare. Clearing this draft would be an untold disaster for the long-term welfare of our nation and the world.
+2. Consider reissuing the draft only after health conditions related to Covid19 and civic life is normalized across the country.
 
-It is laudable that the Ministry has extended the notice period for public review of this notification upto August 11th, considering numerous public representations and the lockdown situation. I further request you to kindly consider the above-mentioned arguments and withdraw this notification, keeping in mind the long-term welfare of our country’s natural wealth, local communities, and future generations.
+3. Ensure that there are widespread and informed public discussions on the implication of these amendments.
 
+4. A full disclosure of the nature of comments received and the reasons for acceptance and rejection of these comments, prior to the issuance of the final amendments.
 
-Regards,
-Concerned citizens
+We do hope that the environment ministry will uphold its obligations towards informed public participation like the commitment to Principle 10 of the Rio Declaration and also the Principles of Natural Justice, while taking a considered view on the proposed amendments to the EIA notification, 2020.
+
+Sincerely,
+
+Your Name
 `;
 
 	var altWords = {
@@ -47,31 +54,41 @@ Concerned citizens
     "Good"
   ]
 }
-    console.log("replacing words");
-    for (var key in altWords) {
-        var arr = altWords[key];
-        var r = Math.floor((Math.random() * arr.length));
-        subject = subject.replace(key, arr[r])
-    }
 
 
-	var mailLink = document.createElement('a');
-	mailLink.href = "mailto:"+recipients+"?subject="+subject+"&body="+body.replace(/\n/g,"<br>");
-	mailLink.click();
 
-
-		}
 	</script>
 </head>
-<body onload="sendEmail()">
+<body>
 
 	<!-- <a href="mailto:pj@gmail.com?body='stop this nonesense'">Send Email</a> -->
-	<u><h3>Instructions:</h3></u>
-	1. Email Application should open automatically. If your email application doesn't open, try reloading the page
+	<main class="content">
+        <h3><u>What is this about?</u></h3>
+
+	<p>
+	    The Ministry of Environment, Forests and Climate Change released its latest draft Environment Impact Assessment (EIA) notification 2020 recently. The notification determines a crucial aspect around legal procedures for environmental planning in India. The Ministry sought comments from the public on this draft and the last date to submit public opinion is August 11.
+	</p>
+	<p>
+	    We request you to join hands with us to save our country and nature. <b>Please click the below button to draft a letter urging the Ministry to withdraw the notification and defer the process of public comments in the light of the COVID-2019 pandemic</b>
+	</p>
+	<p><u>Please feel free to add your points, it will hardly take 30 seconds. Also, we  request you to add you name at the end of this email.</u></p>
+	<button><a class="mailto">Send Email</a></button>
+	<br>
+	<p>
+	1. Email Application should open automatically, with prefilled content. If your email application doesn't open, try reloading the page
 	<br>
 	2. Hit send on your email application!
-
-
+    </p>
+  </main>
+<br><br>
+ <div class="content">
+     <u><h3>What is EIA?</h3></u>
+     <p>Watch the video to know more about EIA, and its impact on the environment.</p>
+     <iframe width=100% height="315"
+src="https://www.youtube.com/embed/n2kAXSiTE8w">
+</iframe>
+ </div>
+   <div class="content">
     <u><h3>FAQs</h3></u>
     <p>
 <h4>What if the email application doesn't open?</h4>
@@ -79,33 +96,50 @@ The email body is given below. Copy the contents into an email and send it to ei
 <h4>Are your emails getting blocked?</h4>
 Please try changing a few words in the subject/body. We need you!
     </p>
-
+</div>
     <br><br>
+    <div class="content">
     <p>
     <u><h3>Email Body</h3></u>
     
     <h4>Subject: Request to Withdraw Draft EIA 2020 in the interest of Environmental and Public Welfare</h4>
     Dear Shri. Prakash Javadekar,<br><br>
 
-In March 2020, during the COVID pandemic and under your leadership, the MOEFCC had released the Draft EIA 2020 Notification, and I am writing to you today to unequivocally request that this draft be withdrawn on account of how destructive it can prove to be for the ecology and the people of our great nation. 
+This is with reference to the draft EIA notification, 2020 which has been uploaded on the environment ministry’s website on 12.3.2020 seeking public comments within sixty days of the issuance of the notification. We are deeply concerned that this draft notification has been put out in the midst of a national health crisis. As you are aware, most of the country is under lockdown and there are severe restrictions on movement in public places. Most offices are closed and the staff are working from home. These restrictions may be indefinite and it is not clear when public life and work can resume.
 <br><br>
-Though the notification states that it seeks to make the EIA process ‘more transparent and expedient’. But several renowned organizations, experts and the public have raised serious questions and concerns about the consequences, if such an amendment came into force. 
+The long-term public health, social and economic impacts of this global pandemic are yet to be ascertained. The EIA notification is an important regulation through which the impacts of land-use change, water extraction, tree felling, pollution, waste and effluent management for industrial and infrastructure projects are to be studied and used in developmental decisionmaking. Any change in this law has a direct bearing on the living and working conditions of people and the ecology.
 <br><br>
-There is a lot of sound scientific research emerging, linking the present pandemic to the vast destruction of natural habitats – which among numerous other ecosystem services, also greatly buffer zoonotic diseases like COVID – 19. This is in the larger context of a global climate breakdown – repercussions of which our country is already witnessing many, including the devastating Supercyclone Amphan in the East and the cyclone Nisarga in the West. In this light, the Draft EIA 2020 caters purely to the ‘ease of doing business’ in India and does not address these larger looming issues. This also comes at a time when the Government is opening up all its sectors to private companies – entities neither elected by or directly accountable to the people. This takes power away from the people which goes against our democratic ideals.
+Therefore, it is critical that the government provides a suitable and adequate opportunity for those impacted or likely to be affected by the design and implementation of EIA notification. Opportunities to understand and discuss the implications of the proposed amendments may be severely hindered due to the present health emergency with restricted public movement, social distancing and challenges to everyday life activities. These restrictions also make it impossible to disseminate information about the notification to communities who deserve to know and influence the notification.
 <br><br>
-The proposed notification considerably relaxes various guidelines, restrictions and safeguards which legally exist for our wilderness and local people. This is in contravention to the scope and spirit of Section 3 of the Environmental Protections Act (1986) itself. It seems to make circumstances strongly favourable to industrial and corporate interests. Pertinent examples of this are the allowance of post-facto clearances and the non-requirement of EIA for B2 projects, which include potentially harmful ones like river valley projects, tanneries, many chemical manufacturing units, petrochemical industries, expansion of national highways, etc. How can we expect the perpetrators of ecological crimes to keep themselves accountable? We cannot! It is understandable that the government is taking measures to counter the recent economic slowdown, but these measures need to be also cognizant of long term and far-reaching ecological and social impacts. This is not to mention that destruction of the environment is proven to be worse for the economy in the longer term.
+We, therefore, request the environment ministry to:
 <br><br>
-While there has been some streamlining with respect to the categorisation of projects, the public consultation step has been severely undermined. This dilutes an important democratic process ensuring the welfare of stakeholders in the project areas. It is not reasonable to expect that the public can get informed opinions on such short timelines.
+1. Immediately, withdraw the proposed amendments of the Draft EIA notification 2020.
 <br><br>
-There are a number of other such exemptions given for industries and relaxations of restrictions, which presently exist as safeguards against destructive development. There is, as such, nothing in the notification which is for the protection and conservation of the environment itself and/or for public welfare. Clearing this draft would be an untold disaster for the long-term welfare of our nation and the world.
+2. Consider reissuing the draft only after health conditions related to Covid19 and civic life is normalized across the country.
 <br><br>
-It is laudable that the Ministry has extended the notice period for public review of this notification upto August 11th, considering numerous public representations and the lockdown situation. I further request you to kindly consider the above-mentioned arguments and withdraw this notification, keeping in mind the long-term welfare of our country’s natural wealth, local communities, and future generations.
+3. Ensure that there are widespread and informed public discussions on the implication of these amendments.
+<br><br>
+4. A full disclosure of the nature of comments received and the reasons for acceptance and rejection of these comments, prior to the issuance of the final amendments.
+<br><br>
+We do hope that the environment ministry will uphold its obligations towards informed public participation like the commitment to Principle 10 of the Rio Declaration and also the Principles of Natural Justice, while taking a considered view on the proposed amendments to the EIA notification, 2020.
 <br><br><br>
 
-Regards,<br>
-Concerned citizens
+Sincerely,<br>
+Your Name
 </p>
-	
+</div>
 
 </body>
+<script>
+
+     console.log("replacing words");
+    for (var key in altWords) {
+        var arr = altWords[key];
+        var r = Math.floor((Math.random() * arr.length));
+        subject = subject.replace(key, arr[r])
+    }
+
+	var mailLink = document.getElementsByClassName('mailto');
+	mailLink.href = "mailto:"+recipients+"?subject="+subject+"&body="+body.replace(/\n/g,"<br>");
+</script>
 </html>

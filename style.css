@@ -1,0 +1,27 @@
+main  h3
+{
+    text-align: center;
+}
+
+body
+{
+    padding:2%;
+    font-family: sans-serif;
+}
+
+button
+{
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.content
+{
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    padding: 10px;
+    background-color:azure;
+}
+
